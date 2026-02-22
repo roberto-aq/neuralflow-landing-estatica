@@ -1,222 +1,284 @@
 # NeuralFlow — Datos estáticos del sitio
 
+---
+
 ## Meta
 
-| Campo       | Valor                                                                                                    |
-| ----------- | -------------------------------------------------------------------------------------------------------- |
-| Título      | NeuralFlow — Automatiza lo Aburrido.                                                                     |
-| Descripción | NeuralFlow conecta tus apps y automatiza tus flujos de trabajo con IA. Deja de babysittear herramientas. Empieza a construir lo que importa. |
-| Idioma      | es                                                                                                       |
-| Favicon     | img/logoNeuralFlow.webp                                                                                  |
+title: NeuralFlow — Automatiza lo Aburrido.
+description: NeuralFlow conecta tus apps y automatiza tus flujos de trabajo con IA. Deja de babysittear herramientas. Empieza a construir lo que importa.
+lang: es
+favicon: img/logoNeuralFlow.webp
 
 ---
 
-## Header / Navegación
+## Header
 
-### Logo
-- Texto: **NeuralFlow**
-- Imagen: `img/logoNeuralFlow.webp`
+logo-img: img/logoNeuralFlow.webp
+logo-text: NeuralFlow
 
-### Links de navegación
-- Funcionalidades → `#funcionalidades`
-- Precios → `#precios`
-- Integraciones → `#integraciones`
-- Docs → `#docs`
+nav-links:
+- Funcionalidades → #funcionalidades
+- Precios → #precios
+- Integraciones → #integraciones
+- Docs → #docs
 
-### Acciones (CTA)
-- Iniciar sesión _(ghost)_
-- Empieza gratis _(primary)_
+ctas:
+- Iniciar sesión (ghost)
+- Empieza gratis (primary)
 
 ---
 
 ## Menú móvil
 
-### Estado pill
-> IA Workflows 2.0 disponible
+pill: IA Workflows 2.0 disponible
 
-### CTAs móvil
-- Iniciar sesión _(outline)_
-- Empieza a construir gratis _(primary)_
+ctas:
+- Iniciar sesión (outline)
+- Empieza a construir gratis (primary)
 
 ---
 
 ## Hero
 
-### Badge
-> Nuevo · IA Workflows 2.0 ya disponible
+badge: Nuevo · IA Workflows 2.0 ya disponible
 
-### Headline
-> **Automatiza lo Aburrido**
-> Construye lo Brillante _(gradiente)_
+h1: Automatiza lo Aburrido
+h1-gradient: Construye lo Brillante
 
-### Subtítulo
-> NeuralFlow conecta tus apps y automatiza tus flujos de trabajo con IA.
-> Deja de babysittear herramientas. Empieza a construir lo que importa.
+subtitle: NeuralFlow conecta tus apps y automatiza tus flujos de trabajo con IA.
+          Deja de babysittear herramientas. Empieza a construir lo que importa.
 
-### CTAs
-- Empieza a construir gratis → _(primary, large)_
-- Ver demo _(outline, large)_
+ctas:
+- Empieza a construir gratis (primary, large)
+- Ver demo (outline, large)
 
-### Social proof
-- Rating: ★★★★★ (5 de 5 estrellas)
-- Texto: Con la confianza de más de **4.200 equipos** en todo el mundo
+social-proof: ★★★★★ Con la confianza de más de 4.200 equipos en todo el mundo
 
 ---
 
-## Funcionalidades
+## Sección Funcionalidades
 
-### Encabezado de sección
-- Tag: `FUNCIONALIDADES`
-- Título: **Todo lo que necesitas para ir más rápido**
-- Subtítulo: Seis pilares de automatización con IA, pensados para equipos de producto.
+tag: FUNCIONALIDADES
+h2: Todo lo que necesitas para ir más rápido
+subtitle: Seis pilares de automatización con IA, pensados para
+          equipos de producto.
 
-### Tarjetas
-
-| # | Icono            | Título                       | Descripción                                                                                                              |
-|---|------------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| 1 | `fa-bolt`        | Disparadores inteligentes    | Activa flujos ante cualquier evento: subida de archivos, formularios, webhooks o señales personalizadas.                |
-| 2 | `fa-brain`       | Motor de razonamiento LLM    | Enruta tareas por GPT-4, Claude o Gemini. Encadena modelos para pipelines de razonamiento complejos.                    |
-| 3 | `fa-code-branch` | Constructor visual de flujos | Canvas drag-and-drop. Crea pipelines en múltiples pasos de forma visual, sin tocar una línea de código.                |
-| 4 | `fa-lock`        | Seguridad SOC 2              | Cifrado de nivel empresarial. Tus datos son siempre tuyos.                                                              |
-| 5 | `fa-chart-line`  | Analíticas en tiempo real    | Monitorea cada ejecución. Depura errores al instante con logs completos.                                                |
-| 6 | `fa-robot`       | Copilot IA                   | Describe lo que quieres en español. La IA genera y optimiza el flujo de trabajo por ti automáticamente.                 |
+Tarjetas:
+- <i class="fa-solid fa-bolt"></i> Disparadores inteligentes — Activa flujos ante cualquier evento: subida de archivos, formularios, webhooks o señales personalizadas.
+- <i class="fa-solid fa-brain"></i> Motor de razonamiento LLM — Enruta tareas por GPT-4, Claude o Gemini. Encadena modelos para pipelines de razonamiento complejos.
+- <i class="fa-solid fa-code-branch"></i> Constructor visual de flujos — Canvas drag-and-drop. Crea pipelines en múltiples pasos de forma visual, sin tocar una línea de código.
+- <i class="fa-solid fa-lock"></i> Seguridad SOC 2 — Cifrado de nivel empresarial. Tus datos son siempre tuyos.
+- <i class="fa-solid fa-chart-line"></i> Analíticas en tiempo real — Monitorea cada ejecución. Depura errores al instante con logs completos.
+- <i class="fa-solid fa-robot"></i> Copilot IA — Describe lo que quieres en español. La IA genera y optimiza el flujo de trabajo por ti automáticamente.
 
 ---
 
-## Precios
+## Sección Precios
 
-### Encabezado de sección
-- Tag: `PRECIOS`
-- Título: **Precios simples y transparentes**
-- Subtítulo: Sin tarifas ocultas. Sube o baja de plan cuando quieras.
+tag: PRECIOS
+h2: Precios simples y transparentes
+subtitle: Sin tarifas ocultas. Sube o baja de plan cuando quieras.
 
-### Plan Inicial
-- Precio: **$0 /mo**
-- Características:
-  - 500 ejecuciones de flujo / mes
-  - 3 flujos activos
-  - Soporte de comunidad
-- CTA: Empezar gratis _(outline)_
+Plan Inicial — $0 /mo
+- 500 ejecuciones de flujo / mes
+- 3 flujos activos
+- Soporte de comunidad
+cta: Empezar gratis (outline)
 
-### Plan Pro _(destacado — Más popular)_
-- Precio: **$49 /mo**
-- Características:
-  - 25.000 ejecuciones de flujo / mes
-  - Flujos activos ilimitados
-  - Todas las integraciones LLM
-  - Soporte prioritario por email
-- CTA: Iniciar prueba Pro → _(primary)_
+Plan Pro — $49 /mo (Más popular)
+- 25.000 ejecuciones de flujo / mes
+- Flujos activos ilimitados
+- Todas las integraciones LLM
+- Soporte prioritario por email
+cta: Iniciar prueba Pro → (primary)
 
-### Plan Empresa
-- Precio: **Custom**
-- Características:
-  - Todo ilimitado
-  - SSO + SAML + registros de auditoría
-  - Gestor de éxito dedicado
-  - SLA + garantía de disponibilidad del 99,99%
-- CTA: Contactar con ventas _(outline)_
+Plan Empresa — Custom
+- Todo ilimitado
+- SSO + SAML + registros de auditoría
+- Gestor de éxito dedicado
+- SLA + garantía de disponibilidad del 99,99%
+cta: Contactar con ventas (outline)
 
 ---
 
-## Integraciones
+## Sección Integraciones
 
-### Encabezado de sección
-- Tag: `INTEGRACIONES`
-- Título: **Conecta con todo tu stack**
-- Subtítulo: Integraciones nativas con más de 120 herramientas. Añadimos más cada semana.
+tag: INTEGRACIONES
+h2: Conecta con todo tu stack
+subtitle: Integraciones nativas con más de 120 herramientas. Añadimos más cada semana.
 
-### Herramientas integradas
-
-| Nombre | Icono Brand        |
-|--------|--------------------|
-| Slack  | `fa-slack`         |
-| GitHub | `fa-github`        |
-| Gmail  | `fa-google`        |
-| Notion | `fa-notion`        |
-| AWS    | `fa-aws`           |
-| Stripe | `fa-stripe-s`      |
+Herramientas:
+- Slack: <i class="fa-brands fa-slack"></i>
+- GitHub: <i class="fa-brands fa-github"></i>
+- Gmail: <i class="fa-brands fa-google"></i>
+- Notion: <i class="fa-brands fa-notion"></i>
+- AWS: <i class="fa-brands fa-aws"></i>
+- Stripe: <i class="fa-brands fa-stripe-s"></i>
 
 ---
 
-## Docs
+## Sección Docs
 
-### Encabezado de sección
-- Tag: `DOCS`
-- Título: **Todo lo que necesitas para construir rápido**
-- Subtítulo: Guías claras, referencias de API y ejemplos listos para usar. Sin frustraciones.
+tag: DOCS
+h2: Todo lo que necesitas para construir rápido
+subtitle: Guías claras, referencias de API y ejemplos listos para usar. Sin frustraciones.
 
-### Tarjetas de documentación
+Tarjeta 1 — Guía de inicio rápido
+badge: Nuevo (verde)
+icono: <i class="fa-solid fa-rocket"></i>
+desc: Desde cero hasta tu primer flujo automatizado en menos de 5 minutos. Sin configuración compleja.
+link: Leer guía →
 
-#### Guía de inicio rápido
-- Badge: `Nuevo` (verde)
-- Icono: `fa-rocket`
-- Descripción: Desde cero hasta tu primer flujo automatizado en menos de 5 minutos. Sin configuración compleja.
-- Link: Leer guía →
+Tarjeta 2 — Referencia de API
+icono: <i class="fa-solid fa-terminal"></i>
+desc: Documentación completa de todos los endpoints REST. Autenticación, paginación y ejemplos en cURL, Python y JS.
+snippet: POST /v1/workflows/run · Authorization: Bearer {token}
+link: Ver referencia →
 
-#### Referencia de API
-- Icono: `fa-terminal`
-- Descripción: Documentación completa de todos los endpoints REST. Autenticación, paginación y ejemplos en cURL, Python y JS.
-- Snippet de código:
-  ```
-  POST /v1/workflows/run
-  Authorization: Bearer {token}
-  ```
-- Link: Ver referencia →
-
-#### Plantillas & Ejemplos
-- Icono: `fa-layer-group`
-- Descripción: Más de 50 flujos pre-construidos para los casos de uso más comunes. Copia, adapta y lanza en minutos.
-- Tags: `CRM` · `eCommerce` · `IA / LLMs`
-- Link: Explorar plantillas →
+Tarjeta 3 — Plantillas & Ejemplos
+icono: <i class="fa-solid fa-layer-group"></i>
+desc: Más de 50 flujos pre-construidos para los casos de uso más comunes. Copia, adapta y lanza en minutos.
+tags: CRM · eCommerce · IA / LLMs
+link: Explorar plantillas →
 
 ---
 
 ## CTA Final
 
-### Headline
-> **Tu equipo merece**
-> superpoderes. _(gradiente)_
+h2: Tu equipo merece
+h2-gradient: superpoderes.
 
-### Subtítulo
-> Empieza a automatizar en minutos. Sin tarjeta de crédito.
+subtitle: Empieza a automatizar en minutos. Sin tarjeta de crédito.
 
-### CTA
-- Empieza a construir gratis — Es gratuito _(primary, wide)_
+cta: Empieza a construir gratis — Es gratuito (primary, wide)
 
-### Trust line
-> Únete a más de 4.200 equipos · Plan gratuito para siempre · Cancela cuando quieras
+trust: Únete a más de 4.200 equipos · Plan gratuito para siempre · Cancela cuando quieras
 
 ---
 
 ## Footer
 
-### Brand
-- Logo: `img/logoNeuralFlow.webp` + texto **NeuralFlow**
-- Tagline: Automatización de flujos de trabajo con IA para equipos modernos. Lanza más rápido, automatiza con inteligencia.
+logo-img: img/logoNeuralFlow.webp
+logo-text: NeuralFlow
+tagline: Automatización de flujos de trabajo con IA para equipos modernos.
+         Lanza más rápido, automatiza con inteligencia.
 
-### Navegación del footer
-
-#### Producto
-- Funcionalidades → `#funcionalidades`
-- Precios → `#precios`
-- Integraciones → `#integraciones`
+Nav Producto:
+- Funcionalidades → #funcionalidades
+- Precios → #precios
+- Integraciones → #integraciones
 - Novedades
 
-#### Empresa
+Nav Empresa:
 - Sobre nosotros
 - Blog
 - Empleo
 - Press
 
-#### Legal
+Nav Legal:
 - Política de privacidad
 - Términos de servicio
 - Seguridad
 
-### Copyright
-> © [año actual] NeuralFlow Inc. Todos los derechos reservados.
+copyright: © 2025 NeuralFlow Inc. Todos los derechos reservados.
 
-### Redes sociales
-- Twitter / X → `fa-x-twitter`
-- GitHub → `fa-github`
-- LinkedIn → `fa-linkedin`
+Redes sociales:
+- Twitter / X: <i class="fa-brands fa-x-twitter"></i>
+- GitHub: <i class="fa-brands fa-github"></i>
+- LinkedIn: <i class="fa-brands fa-linkedin"></i>
+
+---
+
+## Iconos utilizados
+
+Solid:
+- rayo: <i class="fa-solid fa-bolt"></i>
+- cerebro: <i class="fa-solid fa-brain"></i>
+- bifurcación: <i class="fa-solid fa-code-branch"></i>
+- candado: <i class="fa-solid fa-lock"></i>
+- gráfica: <i class="fa-solid fa-chart-line"></i>
+- robot: <i class="fa-solid fa-robot"></i>
+- cohete: <i class="fa-solid fa-rocket"></i>
+- terminal: <i class="fa-solid fa-terminal"></i>
+- capas: <i class="fa-solid fa-layer-group"></i>
+
+Brands:
+- slack: <i class="fa-brands fa-slack"></i>
+- github: <i class="fa-brands fa-github"></i>
+- google: <i class="fa-brands fa-google"></i>
+- notion: <i class="fa-brands fa-notion"></i>
+- aws: <i class="fa-brands fa-aws"></i>
+- stripe: <i class="fa-brands fa-stripe-s"></i>
+- x-twitter: <i class="fa-brands fa-x-twitter"></i>
+- linkedin: <i class="fa-brands fa-linkedin"></i>
+
+---
+
+## Variables CSS
+
+```css
+:root {
+  --bg: #0a0a0f;
+  --bg-alt: #0d0d14;
+  --bg-card: #13131f;
+  --bg-footer: #07070d;
+
+  --purple: #a855f7;
+  --purple-dk: #7c3aed;
+  --purple-lt: #c084fc;
+  --white: #ffffff;
+  --muted: #a1a1aa;
+  --sub: #71717a;
+  --dim: #52525b;
+  --faint: #3f3f46;
+  --border: #27272a;
+  --border-dk: #18181b;
+
+  --grad-purple: linear-gradient(135deg, #a855f7, #7c3aed);
+  --grad-text: linear-gradient(90deg, #c084fc, #7c3aed);
+  --grad-hero: radial-gradient(
+    ellipse 120% 80% at 50% 30%,
+    rgba(124, 58, 237, 0.2) 0%,
+    transparent 100%
+  );
+  --grad-cta: radial-gradient(
+    ellipse 120% 100% at 50% 50%,
+    #200a40,
+    #0a0a0f
+  );
+
+  --font: 'Inter', system-ui, -apple-system, sans-serif;
+  --fs-hero: clamp(2.5rem, 5.5vw, 4.5rem);
+  --fs-cta: clamp(2.25rem, 5vw, 3.75rem);
+  --fs-h2: clamp(1.75rem, 4vw, 2.75rem);
+
+  --shadow: 0 8px 32px rgba(168, 85, 247, 0.4);
+  --shadow-lg: 0 12px 48px rgba(168, 85, 247, 0.4);
+
+  --px: 5rem;
+  --nav-h: 4.5rem;
+  --r: 0.75rem;
+}
+```
+
+---
+
+## Recursos utilizados
+
+**Font Awesome 7**
+```html
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+/>
+```
+
+**Google Fonts — Inter**
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet"
+/>
+```
