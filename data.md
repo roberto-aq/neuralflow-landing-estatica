@@ -17,12 +17,14 @@ logo-img: img/logoNeuralFlow.webp
 logo-text: NeuralFlow
 
 nav-links:
+
 - Funcionalidades → #funcionalidades
 - Precios → #precios
 - Integraciones → #integraciones
 - Docs → #docs
 
 ctas:
+
 - Iniciar sesión (ghost)
 - Empieza gratis (primary)
 
@@ -33,6 +35,7 @@ ctas:
 pill: IA Workflows 2.0 disponible
 
 ctas:
+
 - Iniciar sesión (outline)
 - Empieza a construir gratis (primary)
 
@@ -46,9 +49,10 @@ h1: Automatiza lo Aburrido
 h1-gradient: Construye lo Brillante
 
 subtitle: NeuralFlow conecta tus apps y automatiza tus flujos de trabajo con IA.
-          Deja de babysittear herramientas. Empieza a construir lo que importa.
+Deja de babysittear herramientas. Empieza a construir lo que importa.
 
 ctas:
+
 - Empieza a construir gratis (primary, large)
 - Ver demo (outline, large)
 
@@ -61,9 +65,10 @@ social-proof: ★★★★★ Con la confianza de más de 4.200 equipos en todo 
 tag: FUNCIONALIDADES
 h2: Todo lo que necesitas para ir más rápido
 subtitle: Seis pilares de automatización con IA, pensados para
-          equipos de producto.
+equipos de producto.
 
 Tarjetas:
+
 - <i class="fa-solid fa-bolt"></i> Disparadores inteligentes — Activa flujos ante cualquier evento: subida de archivos, formularios, webhooks o señales personalizadas.
 - <i class="fa-solid fa-brain"></i> Motor de razonamiento LLM — Enruta tareas por GPT-4, Claude o Gemini. Encadena modelos para pipelines de razonamiento complejos.
 - <i class="fa-solid fa-code-branch"></i> Constructor visual de flujos — Canvas drag-and-drop. Crea pipelines en múltiples pasos de forma visual, sin tocar una línea de código.
@@ -80,24 +85,27 @@ h2: Precios simples y transparentes
 subtitle: Sin tarifas ocultas. Sube o baja de plan cuando quieras.
 
 Plan Inicial — $0 /mo
+
 - 500 ejecuciones de flujo / mes
 - 3 flujos activos
 - Soporte de comunidad
-cta: Empezar gratis (outline)
+  cta: Empezar gratis (outline)
 
 Plan Pro — $49 /mo (Más popular)
+
 - 25.000 ejecuciones de flujo / mes
 - Flujos activos ilimitados
 - Todas las integraciones LLM
 - Soporte prioritario por email
-cta: Iniciar prueba Pro → (primary)
+  cta: Iniciar prueba Pro → (primary)
 
 Plan Empresa — Custom
+
 - Todo ilimitado
 - SSO + SAML + registros de auditoría
 - Gestor de éxito dedicado
 - SLA + garantía de disponibilidad del 99,99%
-cta: Contactar con ventas (outline)
+  cta: Contactar con ventas (outline)
 
 ---
 
@@ -108,6 +116,7 @@ h2: Conecta con todo tu stack
 subtitle: Integraciones nativas con más de 120 herramientas. Añadimos más cada semana.
 
 Herramientas:
+
 - Slack: <i class="fa-brands fa-slack"></i>
 - GitHub: <i class="fa-brands fa-github"></i>
 - Gmail: <i class="fa-brands fa-google"></i>
@@ -161,21 +170,24 @@ trust: Únete a más de 4.200 equipos · Plan gratuito para siempre · Cancela c
 logo-img: img/logoNeuralFlow.webp
 logo-text: NeuralFlow
 tagline: Automatización de flujos de trabajo con IA para equipos modernos.
-         Lanza más rápido, automatiza con inteligencia.
+Lanza más rápido, automatiza con inteligencia.
 
 Nav Producto:
+
 - Funcionalidades → #funcionalidades
 - Precios → #precios
 - Integraciones → #integraciones
 - Novedades
 
 Nav Empresa:
+
 - Sobre nosotros
 - Blog
 - Empleo
 - Press
 
 Nav Legal:
+
 - Política de privacidad
 - Términos de servicio
 - Seguridad
@@ -183,6 +195,7 @@ Nav Legal:
 copyright: © 2025 NeuralFlow Inc. Todos los derechos reservados.
 
 Redes sociales:
+
 - Twitter / X: <i class="fa-brands fa-x-twitter"></i>
 - GitHub: <i class="fa-brands fa-github"></i>
 - LinkedIn: <i class="fa-brands fa-linkedin"></i>
@@ -192,6 +205,7 @@ Redes sociales:
 ## Iconos utilizados
 
 Solid:
+
 - rayo: <i class="fa-solid fa-bolt"></i>
 - cerebro: <i class="fa-solid fa-brain"></i>
 - bifurcación: <i class="fa-solid fa-code-branch"></i>
@@ -203,6 +217,7 @@ Solid:
 - capas: <i class="fa-solid fa-layer-group"></i>
 
 Brands:
+
 - slack: <i class="fa-brands fa-slack"></i>
 - github: <i class="fa-brands fa-github"></i>
 - google: <i class="fa-brands fa-google"></i>
@@ -261,11 +276,33 @@ Brands:
 }
 ```
 
+## Colores de brand Integrations
+
+- slack:
+  - Background: #3d1a6a
+  - Color: #c084fc
+- github:
+  - Background: #1a2e1a
+  - Color: #4ade80
+- gmail:
+  - Background: #2e1a1a
+  - Color: #f87171
+- notion:
+  - Background: #1a1a2e
+  - Color: #60a5fa
+- aws:
+  - Background: #1a2a1a
+  - Color: #34d399
+- stripe:
+  - Background: #2e1a2e
+  - Color: #e879f9
+
 ---
 
 ## Recursos utilizados
 
 **Font Awesome 7**
+
 ```html
 <link
   rel="stylesheet"
@@ -274,6 +311,7 @@ Brands:
 ```
 
 **Google Fonts — Inter**
+
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
